@@ -1,3 +1,3 @@
 from logging.config import fileConfig
-fileConfig('logging.cfg')
-
+#fileConfig('./appIng/logging.cfg')
+fileConfig('./logging.cfg')

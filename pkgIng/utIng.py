@@ -4,87 +4,91 @@ Created on 23.07.2018
 @author: amesagarcia
 '''
 import unittest
+
 from pkgIng.swcIng import cIng as DUT
 from logging import getLogger
 _log = getLogger(__name__)
 from os.path import exists
 from os import remove
 
-data = '''My Lords, I, too, congratulate my noble friend Lord Clement-Jones on introducing this important debate.Many 
-years ago, I was a teacher and I very quickly became disillusioned by participating in a system based 
-on the industrial production line model of education.I started to develop ways of catering for the needs 
-of individual pupils, not ​least to allow them to develop their own creativity.Later, as an MP and my 
-party’s education spokesman, I wrote a book on the importance of developing creativity in education.It 
-was not very good and is now out of print.But my passion for the need to insert the power of creativity 
-into our education system is undimmed, and it helps explain why I am such a passionate supporter of the 
-creative industries.My noble friend Lord Clement-Jones and others have already highlighted the vital 
-importance of the creative industries to our economy and our country’s future.I will not repeat all the 
-statistics, but it is clear that the creative industries are a huge success story, punching above their 
-weight.It is also clear that they have benefited enormously from our membership of the EU.These benefits 
-are put at significant risk by the hard Brexit announced by the Prime Minister on Tuesday.Indeed, finding 
-some glimmer of Brexit-related light for the creative industries is hard to come by, although I recommend, 
-at least for a good laugh, “Brexit the Musical”, which I saw last weekend at the excellent Canal Café 
-Theatre.Funny though it was, it intensified my worries about Brexit and Tuesday’s speech by the Prime 
-Minister did little to allay them.It is clear that if the creative industries are so important we must, 
-at the very least, ensure they have a voice at the top table during negotiations.As Sir John Sorrell 
-says, the creative industries are now, “a key driver of wealth and global success”, and imperilling them 
-would, he went on, “imperil our wider economy.That is why we need to be at the heart of the … government’s 
-industrial strategy and negotiating priorities in coming months”.Yet there is scant evidence that the 
-Government are taking the creative industries seriously.As Monday’s Evening Standard said, the creative 
-industries do not get much of a look-in—they certainly did not in the Prime Minister’s speech on Tuesday.The 
-Government have promised to push hard for trade deals with the EU on the car industry and on the pharmaceutical 
-and financial sectors.So far, no such promises have been made for the creative sector, and the DCMS Secretary 
-of State is not even on the Government’s main Brexit committee.This does not bode well for the creative 
-industries.The negotiations will have to cover many matters, not least employment and skills.The creative 
-industries have a higher than average percentage of non-UK EU nationals working for them: 10% of the 
-publishing workforce; 25% in visual effects for film; and as high as 30% in computer gaming.All currently 
-benefit from being able to attract a skilled workforce from the EU, from their variety and diversity 
-and from the collaboration that freedom of movement has enabled.Already, uncertainty over the status 
-of EU workers and the lack of clarity around future immigration policy has made it more difficult for 
-them to attract the talent they need since the Brexit vote.I continue to believe that the best way to 
-resolve the uncertainty is to remain in the single market, but if the Government insist on leaving, they 
-must explain how they will resolve the uncertainty.​As the Creative Industries Federation said after 
-the Prime Minister’s speech, “the willingness to continue to welcome the ‘brightest and best’ begs the 
-question as to how that will be interpreted in future as the UK updates its outdated immigration system”.At 
-the very least, we must surely guarantee the status of skilled EU nationals now and in the future.The 
-Prime Minister says that she wants to deliver this, but she must do it quickly.Contrary to the comments 
-of the noble Lord, Lord Blencathra, uncertainty already means that some are leaving, and it is getting 
-harder to attract new talent from other EU countries to fill vacancies and support continued expansion.The 
-Government should follow the clear advice of the noble Lord, Lord Puttnam.We also have to address homegrown 
-skill shortages.The Prime Minister talked of reforming our schools to achieve this, as if schools had 
-not seen reforms enough already.Instead, she should look at funding and at reforming the curriculum.The 
-Government have failed to protect funding on a per-pupil basis; it is now predicted to fall by 7.5% by 
-2021.Despite the need for creative subjects for a wide range of careers within and beyond the creative 
-industries, entries for GCSEs in arts and creative subjects have fallen significantly, not least since 
-the Government failed to include them within the EBacc.The EBacc is now interpreted as a signal of what 
-matters and what is best for young people, and creative subjects are not a priority.This is leading to 
-a mismatch between education policy and industry requirements.We surely need to unleash the creativity 
-of pupils.We should learn from the recent writings of the noble Lord, Lord Baker of Dorking, recognise 
-the importance of digital skills to the creative industries and take action to tackle the huge shortage 
-of such skills.Some good things are happening.There are changes to the IT curriculum to introduce coding.The 
-BBC’s “Make it Digital” and micro:bit are helping people to get creative with coding, programming and 
-digital technology.Today, on the day it launches its digital marketing strategy with Minister Matt Hancock, 
-I especially welcome the efforts of “Do It Digital”, a not-for-profit, business-facing campaign to share, 
-signpost and celebrate all things that help small businesses get more out of digital.However, more is 
-needed.With 10 million adults lacking basic digital skills, it is simply not a good enough response for 
-the Government to announce free adult basic digital skills training but then expect it to be, “funded 
-from the existing Adult Education Budget”.Without intervention beyond what is currently scoped, it is 
-estimated that there will still be 7.9 million adults without basic digital skills in 2025, and surely—and 
-I hope the Minister agrees—additional action to upskill our workforce must be taken before we introduce 
-measures to cut the supply of skilled people from the rest of the EU.Without action in this and many 
-other areas raised by my noble friend Lord Clement-Jones, the creative industries post-Brexit will be 
-in severe difficulty.Sustaining their current position will be hard enough; expecting ​further growth 
-will be unrealistic.To ensure that these issues are addressed, the creative industries must be given 
-the priority they deserve during the negotiations and a seat at the top table.'''
+data = '''My Lords, I thank the noble Lord, Lord Clement-Jones, for initiating this important debate. I will talk 
+briefly about museums, art galleries and commercial art galleries. Some have argued that these are not 
+part of the creative industries, but surely exhibitions that bring together installations of art, music, 
+video and photography have to be regarded as creative.Museums and galleries play a central part in the 
+cultural and creative life of our country and of our cities in particular. The role of culture and creativity 
+in the social and economic future of our cities should be recognised and supported across government. 
+For our cities throughout the UK to be truly successful, competitive and sustainable, they must be more 
+than just hubs of commerce. Culture and creative industries are able to attract highly paid jobs and 
+tourism to our cities. As businesses and the workplace become increasingly flexible and mobile, culture 
+has a vital role to play in the appeal of a city for both employers and, critically, employees.Culture 
+can also support regeneration and development plans, as seen in areas such as London, Manchester and 
+Dundee. Making this a reality across the country will require all parts of both the public and private 
+sectors to recognise the value that culture and creativity play in the cities of the future. They operate 
+in a global marketplace for creative, cultural and research talent. We have museum curators from Europe 
+and further afield, and many of our museum and gallery employees have studied in Europe and in other 
+parts of the world.The museum sector is well placed to project an image of the country that is open, 
+progressive and positively engaged. There is a real opportunity for museums and galleries to shape global 
+perceptions of the country and, in doing so, help to encourage inbound tourism, trade and investment, 
+as well as supporting the retention of global business. London’s unique collection of world-class museums 
+is an essential part of its appeal to mobile and flexible global companies and employers who are choosing 
+it as a place to work and live, against competition from other comparable global cities.Of course there 
+are uncertain times ahead for museums and art galleries. Leaving the EU could effectively remove the 
+UK from the European loan circuit. The loan system as it stands has academic, social, economic ​and political 
+advantages. Among many concerns are that costs will go up, and funding down. The Government must take 
+note of the possible impact on UK museums and galleries. The laws in place at present are interrelated, 
+and these will need to be in place when we leave to regulate such issues as the licensing and movement 
+of cultural property, which at present is in EU law.It is vital that museums continue to tour in Europe 
+and bring objects, both ancient and modern, in and out of the country, enhancing the UK’s reputation 
+abroad and all that they offer to people here in the UK. Now it is more important than ever that they 
+continue to look and reach outwards and work with organisations in Europe and beyond, cementing the partnerships 
+that have been built up. There is no doubt that our arts, creative and cultural organisations are in 
+demand as partners, providers and destinations. As I have said, our creative and cultural strength is 
+one of the UK’s trademarks globally.Our departure from the EU will strip the UK of a layer of funding, 
+but it need not mean that there should also be an end to culture collaboration. There may be uncertainty 
+on the future of funding and free movement, but our creativity, museums and galleries remain vibrant. 
+We are world leaders in culture and the arts. Innovative, challenging and exciting arts and culture are 
+here to stay. They benefit the economy and attract tourists from all over the world.The British Museum 
+has a first-rate international programme that supports the UK’s soft-power capabilities, building networks 
+and relationships throughout the world. The museum’s arm’s-length status enables it to continue to engage 
+with countries such as Russia and Iran during moments of diplomatic difficulty, maintaining people-to-people 
+contact. The museum also regularly receives ministerial and state visits, which emphasise its importance 
+as one of the world’s leading attractions and a symbol of the UK’s openness to the world. Of course not 
+all museums can operate on that scale, but it is important that museums and the cultural sector as a 
+whole continue to engage and build networks, through research, exhibitions and collaboration with partners 
+around the world, including throughout Europe.The National Museum Directors’ Council stressed that EU 
+funds provide structure and scale that individual member states cannot possibly replicate, and that private 
+funding cannot replace public funding. Regional museums and galleries have always been under pressure 
+and are particularly vulnerable. They need to rethink their way forward, sharing experience, expertise, 
+resources, collections and skills. There must be collaboration with community organisations and connection 
+with their local community. Could this be the time to consider a national strategy for museums and galleries? 
+I would be interested to know how the Minister might feel about that.I want to spend a couple of minutes 
+on commercial galleries. The art market here in the UK is the second largest in the world, attracting 
+high-spending individuals to buy and sell here, as well as setting up businesses and homes. They encourage 
+and promote many of our artists in all areas of creativity. Commercial art galleries are small businesses 
+and, as such, are no different from other businesses trading their wares in Europe and ​further afield. 
+I hope that the Government’s industrial strategy will champion them in the same way that it does other 
+businesses.Anthony Browne, chairman of the British Art Market Federation, pointed out recently that all 
+is not gloom and doom. The freer the trade, the more successful our art market can be. The Brexit vote 
+could give London a competitive advantage over rivals in New York, Switzerland and Hong Kong.However, 
+there is a caveat. Following Brexit, there is anxiety about freedom of movement and cross-border licensing, 
+as well as favourable fiscal advantages to encourage a global market. I am optimistic about the future 
+of our museums and galleries. Let us remember that through the use of collections, public programmes 
+and community engagement work, museums can connect diverse communities and provide safe civic spaces 
+to help us consider and address the changing nature of our society and our relationships with the world. 
+Exhibitions such as the British Museum’s “Hajj: Journey to the Heart of Islam” and the Sikh Fortress 
+Turban touring exhibition, or the forthcoming South Asia partnership gallery in Manchester, demonstrate 
+how collections can be used to engage with local communities and increase levels of understanding and 
+tolerance.I look forward to hearing my noble friend’s speech, in which I am sure there will be support 
+for museums and galleries in this country.'''
 
 class Test(unittest.TestCase):
 
 
     def setUp(self):
-        pass
+        self.dut = DUT(config='./appIng/config.cfg')
 
     def tearDown(self):
-        pass
+        del self.dut
 
     def testConfigFile(self):
         '''
@@ -92,6 +96,7 @@ class Test(unittest.TestCase):
         The class cIng instance uses a default configuration file called 'default.cfg'.
         The configuration file has the following sections, items, items type and defaut value:
             files
+                wd:string = .
                 original:string = original.txt
                 input:string = input.txt
                 output:string = output.txt
@@ -104,111 +109,123 @@ class Test(unittest.TestCase):
                 secret:string = *
                 correction:string = *
         '''
-        dut = DUT(config='config.cfg')
-        self.assertEqual('config.cfg', dut.configFile, 'Error at config file.')
-        self.assertEqual('test02.txt', dut.files['original'], 'Error at original file configuration.')
-        self.assertEqual('itest.txt', dut.files['input'], 'Error at input file configuration.')
-        self.assertEqual('otest.txt', dut.files['output'], 'Error at output file configuration.')
-        self.assertEqual('rtest.txt', dut.files['result'], 'Error at result file configuration.')
-        
-        
-    def testReq02(self):
+        _log.info('<testConfigFile')
+
+        self.assertEqual('./appIng', self.dut.wd, 'Error at wd configuration.')
+        self.assertEqual('./appIng/test.txt', self.dut.originalfile, 'Error at original file configuration.')
+        self.assertEqual('./appIng/itest.txt', self.dut.inputfile, 'Error at input file configuration.')
+        self.assertEqual('./appIng/otest.txt', self.dut.outputfile, 'Error at output file configuration.')
+        self.assertEqual('./appIng/rtest.txt', self.dut.resultfile, 'Error at result file configuration.')
+
+        self.assertEqual(100, self.dut.maxline, 'Error at max line lengths configuration.')
+        self.assertEqual(10, self.dut.maxsecretchars, 'Error at max secret chars lengths configuration.')
+        self.assertEqual(2, self.dut.maxsecretwords, 'Error at max secret words lengths configuration.')
+
+        self.assertEqual('*', self.dut.secret, 'Error at secret char configuration.')
+        self.assertEqual('?', self.dut.correction, 'Error at correction char configuration.')
+
+        _log.info('testConfigFile>')
+
+
+    def testFormatFile(self):
         '''
         The class cIng instance reads the original file from section 'package' and item 'originalFile'.
         The class cIng instance generates the input file from the original one, cutting the line length to the a maximum configurated value, but not splitting the words.
         The input file has the same information than the original file.
-        '''
-        self.maxDiff = None
-        self.assertEqual('test01.txt', dut.originalFile, 'Error at original file.')
-        self.assertFalse(exists('itest01.txt'), 'Error at input file (it should not exist).')
-        dut.formatInput()
-        self.assertTrue(exists('itest01.txt'), 'Error at input file (it should exist).')
-        self.assertEqual(''.join(dut.origdata.splitlines()), ''.join(dut.indata.splitlines()), 'Error at input file')
-
-    def testReq03(self):
-        '''
         The properties 'data' and 'length' from the cIng instance are filled in with the content and length of the 'inputFile'.
         '''
-        self.maxDiff = None
-        self.assertEqual(data, dut.indata, 'Error at data.')
-        self.assertEqual(len(data), len(dut.indata), 'Error at data length.')
+        _log.info('<testFormatFile')
 
-    def testReq04(self):
+        self.maxDiff = None
+        #self.assertFalse(exists('./appIng/itest.txt'), 'Error at input file (it should not exist).')
+        self.dut.formatInput()
+        self.assertTrue(exists('./appIng/itest.txt'), 'Error at input file (it should exist).')
+        self.assertEqual(''.join(self.dut.origdata.splitlines()), ''.join(self.dut.indata.splitlines()), 'Error at input file')
+        self.assertEqual(data, self.dut.indata, 'Error at data.')
+        self.assertEqual(len(data), len(self.dut.indata), 'Error at data length.')
+
+        _log.info('testFormatFile>')
+
+    def testCalculations(self):
         '''
         The cIng instance gives out a list of integers called 'centers'.
         The 'centers' list size is the number of lines of the 'data' field.
-        '''
-        self.assertEqual(66, len(dut.centers), 'Error at centers list size.')
-
-    def testReq05(self):
-        '''
         The cIng instance gives out a list of integers called 'radius'.
         The 'radius' list size is the number of lines of the 'data' field.
         The max value for any element of the radius list is the configuration value 'maxSecretLen'.
-        '''
-        self.assertEqual(66, len(dut.radius), 'Error at radius list size.')
-        for xx in dut.radius:
-            self.assertGreaterEqual(10, xx, 'Error at radius list element {0}'.format(xx))
-
-    def testReq06(self):
-        '''
         The addition result of one 'centers' list element plus the same indexed element from 'radius' list is lower than the indexed line length.
         '''
+        _log.info('<testCalculations')
+
+        self.dut.formatInput()
+        self.assertEqual(69, len(self.dut.centers), 'Error at centers list size.')
+        self.assertEqual(69, len(self.dut.radius), 'Error at radius list size.')
+        for xx in self.dut.radius:
+            self.assertGreaterEqual(10, xx, 'Error at radius list element {0}'.format(xx))
         ii = 0
         for ll in data.splitlines():
             _log.debug(ll)
-            self.assertGreater(len(ll), dut.centers[ii] + dut.radius[ii], 'Error at properties (line:{0}, length:{1}, center:{2}, radius:{3})'.format(ll, len(ll), dut.centers[ii], dut.radius[ii]))
+            self.assertGreater(
+                len(ll), 
+                self.dut.centers[ii] + self.dut.radius[ii], 
+                'Error at properties \n(line:{0}, \nlength:{1}, \ncenter:{2}, \nradius:{3})'.format(ll, len(ll), self.dut.centers[ii], self.dut.radius[ii])
+            )
             ii += 1
 
-    def testReq07(self):
+        _log.info('testCalculations>')
+
+    def testOutputFile(self):
         '''
         The cIng instance generates an new output based on the input file, where each line is a copy but the characters between center and radius position are translated to the character '*'.
         The cIng instance writes the output data to the output file indicated in the configuration file.
         '''
-        self.assertFalse(exists('otest01.txt'), 'Error at ouput file (it should not exist).')
-        dut.generate()
-        self.assertTrue(exists('otest01.txt'), 'Error at ouput file. (it should exist)')
+        _log.info('<testOutputFile')
+
+        #self.assertFalse(exists('./appIng/otest.txt'), 'Error at ouput file (it should not exist).')
+        self.dut.formatInput()
+        self.dut.generate()
+        self.assertTrue(exists('./appIng/otest.txt'), 'Error at ouput file. (it should exist)')
 
         ii = 0
-        for ll in dut.outdata.splitlines():
+        for ll in self.dut.outdata.splitlines():
             _log.debug(ll)
-            self.assertEqual('*'*dut.radius[ii], ll[dut.centers[ii]:(dut.centers[ii] + dut.radius[ii])], 'Error at outpus data (line:{0}, length:{1}, center:{2}, radius:{3})'.format(ll, len(ll), dut.centers[ii], dut.radius[ii]))
+            self.assertEqual(
+                '*'*self.dut.radius[ii], 
+                ll[self.dut.centers[ii]:(self.dut.centers[ii] + self.dut.radius[ii])], 
+                'Error at outpus data \n(line:{0}, \nlength:{1}, \ncenter:{2}, \nradius:{3})'.format(ll, len(ll), self.dut.centers[ii], self.dut.radius[ii])
+            )
             ii += 1
 
-    def testReq08(self):
+        _log.info('testOutputFile>')
+
+    def testResultFile(self):
         '''
         The cIng instance compares the input and the output files and it sets the correction char where they are different.
         '''
-        dut.compare()
-        input('Continue? [enter]')
+        _log.info('<testResultFile')
+
+        self.dut.formatInput()
+        self.dut.generate()
+
+        self.dut.compare()
+        #input('Continue? [enter]')
         xf = open (
-            file = 'itest01.txt', 
+            file = './appIng/itest.txt',
             mode = 'r',
             encoding = 'utf-8',
             )
-        yf = dut.resdata
-        
+        yf = self.dut.resdata
+
         self.maxDiff = None
         self.assertEqual(
-            [ xl for xl in xf.readlines() ], 
-            [ yl for yl in yf.splitlines() ], 
+            [ xl for xl in xf.readlines() ],
+            [ yl for yl in yf ],
             'Error at correction.',
-            )  
-        
-        xf.close()
-        yf.close()
+            )
 
-    def testReq99(self):
-        '''
-        Remove temporary output UT files:
-        '''
-        input('Continue? [enter]')
-        if exists('itest01.txt'): remove('itest01.txt')
-        if exists('otest01.txt'): remove('otest01.txt')
-        if exists('rtest01.txt'): remove('rtest01.txt')
-        self.assertFalse(exists('itest01.txt'), 'Error at input file (it should not exist).')
-        self.assertFalse(exists('otest01.txt'), 'Error at output file (it should not exist).')
-        self.assertFalse(exists('rtest01.txt'), 'Error at result file (it should not exist).')
+        xf.close()
+
+        _log.info('testResultFile>')
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']

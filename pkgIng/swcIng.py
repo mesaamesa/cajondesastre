@@ -4,13 +4,14 @@ Created on 23.07.2018
 @author: amesagarcia
 '''
 
-from logging import getLogger
-_log = getLogger(__name__)
-
 from configparser import ConfigParser as Cfg
+from difflib import Differ
+from logging import getLogger
 from random import randint
 from random import sample
-from difflib import Differ
+
+_log = getLogger(__name__)
+
 
 defaultCfg = {
     'files': {

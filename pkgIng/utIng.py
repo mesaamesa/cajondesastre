@@ -3,13 +3,15 @@ Created on 23.07.2018
 
 @author: amesagarcia
 '''
+from logging import getLogger
+from os import remove
+from os.path import exists
 import unittest
 
 from pkgIng.swcIng import cIng as DUT
-from logging import getLogger
+
+
 _log = getLogger(__name__)
-from os.path import exists
-from os import remove
 
 data = '''My Lords, I thank the noble Lord, Lord Clement-Jones, for initiating this important debate. I will talk 
 briefly about museums, art galleries and commercial art galleries. Some have argued that these are not 
